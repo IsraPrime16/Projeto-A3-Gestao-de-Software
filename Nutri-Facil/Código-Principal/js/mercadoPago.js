@@ -1,7 +1,7 @@
 // Configuração do Mercado Pago
 document.addEventListener('DOMContentLoaded', function() {
   // Substitua com sua public key do Mercado Pago
-  const mp = new MercadoPago('SUA_PUBLIC_KEY_AQUI', {
+  const mp = new MercadoPago('TEST-d31d8c0f-7fa6-4fd3-8f60-f332c473246d', {
     locale: 'pt-BR'
   });
 
