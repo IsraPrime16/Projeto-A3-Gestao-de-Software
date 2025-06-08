@@ -1,2 +1,3 @@
 # Projeto-A3-Gestão-de-Software
-Repositório criado para o desenvolvimento do Projeto A3
+
+Nosso projeto consiste no desenvolvimento de um aplicativo de dieta, onde qualquer pessoa pode utilizá-lo de forma completamente gratuita.
