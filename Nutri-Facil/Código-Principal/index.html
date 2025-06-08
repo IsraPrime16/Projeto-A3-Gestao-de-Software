@@ -1,6 +1,78 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nutri-Facil</title>
+<style>
+  .background-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    overflow: hidden;
+  }
+  
+  .background-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.85);
+    z-index: 1;
+  }
+  
+  .background-image {
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.15;
+    width: 100%;
+    height: 100%;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .background-image.gym-equipment {
+    background-image: url('https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+    z-index: 0;
+  }
+  
+  .background-image.running-people {
+    background-image: url('https://images.unsplash.com/photo-1552674605-db6ffd4facb5?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+    z-index: 0;
+    opacity: 0;
+  }
+  
+  .background-image.healthy-food {
+    background-image: url('https://images.unsplash.com/photo-1490645935967-10de6ba17061?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+    z-index: 0;
+    opacity: 0;
+  }
+  
+  .main-content {
+    position: relative;
+    z-index: 2;
+  }
+</style>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const images = document.querySelectorAll('.background-image');
+    let current = 0;
+    
+    function cycleImages() {
+      images[current].style.opacity = '0';
+      current = (current + 1) % images.length;
+      images[current].style.opacity = '0.15';
+    }
+    
+    setInterval(cycleImages, 5000);
+  });
+  
+</script>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Calculadora de Dieta Saudável</title>
