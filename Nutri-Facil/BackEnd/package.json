@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "type": "module",
+    "express": "^5.1.0",
+    "mercadopago": "^2.7.0"
+  }
+}
