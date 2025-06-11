@@ -1,20 +1,15 @@
-// Gerar receitas baseadas em dieta, preferências e alergias
 function gerarReceita(dieta, preferencias, alergia) {
-  // Ingredientes a evitar baseados em alergias
-  const ingredientesEvitar = {
-    "Lactose": ["leite", "queijo", "manteiga", "creme de leite", "iogurte"],
-    "Glúten": ["trigo", "cevada", "centeio", "pão", "massas", "farinha de trigo"],
-    "Proteína do leite": ["leite", "queijo", "manteiga", "creme de leite", "iogurte"],
-    "Ovo": ["ovo", "ovos", "clara", "gema"],
-    "Frutos do mar": ["camarão", "peixe", "salmão", "atum", "ostra", "marisco"]
-  };
+  // Combinar todos os ingredientes permitidos
+  let todosIngredientes = [
+    ...preferencias.proteinas,
+    ...preferencias.legumes,
+    ...preferencias.verduras,
+    ...preferencias.carboidratos
+  ].filter(item => item.trim() !== '');
 
-  // Filtrar preferências removendo ingredientes problemáticos
-  let ingredientesPermitidos = [...preferencias];
-  if (alergia !== "Nenhuma" && ingredientesEvitar[alergia]) {
-    ingredientesPermitidos = ingredientesPermitidos.filter(
-      ingrediente => !ingredientesEvitar[alergia].includes(ingrediente)
-    );
+  // Se não houver ingredientes, usar padrão
+  if (todosIngredientes.length === 0) {
+    todosIngredientes = ["vegetais variados", "proteína magra"];
   }
 
   // Bases de receitas por tipo de dieta
@@ -41,30 +36,24 @@ function gerarReceita(dieta, preferencias, alergia) {
     ]
   };
 
-  // Se não houver ingredientes permitidos, usar uma lista padrão
-  if (ingredientesPermitidos.length === 0) {
-    ingredientesPermitidos = ["vegetais variados", "proteína magra"];
-  }
-
-  // Selecionar 2-3 ingredientes aleatórios para a receita
+  // Selecionar 2-3 ingredientes aleatórios
   const ingredientesSelecionados = [];
-  const maxIngredientes = Math.min(3, ingredientesPermitidos.length);
+  const maxIngredientes = Math.min(3, todosIngredientes.length);
   const numIngredientes = Math.max(2, maxIngredientes);
   
-  // Garantir que não repitamos ingredientes
-  const copiaIngredientes = [...ingredientesPermitidos];
+  const copiaIngredientes = [...todosIngredientes];
   for (let i = 0; i < numIngredientes && copiaIngredientes.length > 0; i++) {
     const randomIndex = Math.floor(Math.random() * copiaIngredientes.length);
     ingredientesSelecionados.push(copiaIngredientes[randomIndex]);
     copiaIngredientes.splice(randomIndex, 1);
   }
 
-  // Selecionar uma base de receita aleatória para a dieta
+  // Selecionar base de receita aleatória
   const basesDieta = basesReceitas[dieta];
   const baseIndex = Math.floor(Math.random() * basesDieta.length);
   let receita = basesDieta[baseIndex];
   
-  // Substituir placeholders pelos ingredientes
+  // Substituir placeholders
   receita = receita.replace('%INGREDIENTES%', ingredientesSelecionados.join(', '));
   
   // Adicionar nota de alergia se necessário

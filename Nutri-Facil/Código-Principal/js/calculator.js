@@ -1,4 +1,3 @@
-// Cálculos e exibição de resultados
 document.getElementById("diet-form").addEventListener("submit", function(e) {
   e.preventDefault();
   
@@ -11,7 +10,10 @@ document.getElementById("diet-form").addEventListener("submit", function(e) {
     dieta: document.getElementById("dieta").value,
     objetivo: document.getElementById("objetivo").value,
     nivel: document.getElementById("nivel").value,
-    preferencias: document.getElementById("preferencias").value.toLowerCase().split(',').map(item => item.trim()),
+    proteinas: document.getElementById("proteinas").value.split(',').map(item => item.trim()),
+    legumes: document.getElementById("legumes").value.split(',').map(item => item.trim()),
+    verduras: document.getElementById("verduras").value.split(',').map(item => item.trim()),
+    carboidratos: document.getElementById("carboidratos").value.split(',').map(item => item.trim()),
     alergia: document.getElementById("alergias").value
   };
 
@@ -23,8 +25,19 @@ document.getElementById("diet-form").addEventListener("submit", function(e) {
   // Calcular resultados
   const results = calculateResults(formData);
   
+  // Gerar receita
+  const receita = gerarReceita(formData.dieta, {
+    proteinas: formData.proteinas,
+    legumes: formData.legumes,
+    verduras: formData.verduras,
+    carboidratos: formData.carboidratos
+  }, formData.alergia);
+  
+  // Obter ficha de exercícios
+  const exerciseSheet = getExerciseSheet(formData.objetivo, formData.nivel);
+  
   // Exibir resultados
-  displayResults(formData, results);
+  displayResults(formData, results, receita, exerciseSheet);
 });
 
 function validateFormData(data) {
@@ -74,14 +87,7 @@ function calculateResults(data) {
   };
 }
 
-function displayResults(formData, results) {
-  // Gerar receita
-  const receita = gerarReceita(formData.dieta, formData.preferencias, formData.alergia);
-  
-  // Obter ficha de exercícios apropriada
-  const exerciseSheet = getExerciseSheet(formData.objetivo, formData.nivel);
-  
-  // Exibir tudo
+function displayResults(formData, results, receita, exerciseSheet) {
   document.getElementById("resultado").innerHTML = `
     <div class="card fade-in">
       <div class="card-body">
@@ -120,9 +126,27 @@ function displayResults(formData, results) {
                 <div class="alert alert-success">
                   <i class="fas fa-lightbulb me-2"></i>${receita}
                 </div>
-                <p class="text-muted small">
-                  <i class="fas fa-heart me-2"></i>Preferências: ${formData.preferencias.join(', ')}
-                </p>
+              <div class="mt-3">
+                <h6><i class="fas fa-heart me-2"></i>Preferências Alimentares:</h6>
+                <div class="row small">
+                  <div class="col-md-3">
+                    <strong>Proteínas:</strong><br>
+                    ${formData.proteinas.join(', ') || 'Nenhuma especificada'}
+                  </div>
+                  <div class="col-md-3">
+                    <strong>Legumes:</strong><br>
+                    ${formData.legumes.join(', ') || 'Nenhuma especificada'}
+                  </div>
+                  <div class="col-md-3">
+                    <strong>Verduras:</strong><br>
+                    ${formData.verduras.join(', ') || 'Nenhuma especificada'}
+                  </div>
+                  <div class="col-md-3">
+                    <strong>Carboidratos:</strong><br>
+                    ${formData.carboidratos.join(', ') || 'Nenhuma especificada'}
+                  </div>
+                </div>
+              </div>
                 ${formData.alergia !== "Nenhuma" ? `
                   <p class="text-muted small">
                     <i class="fas fa-exclamation-triangle me-2"></i>Restrição: ${formData.alergia}
@@ -148,15 +172,12 @@ function displayResults(formData, results) {
                   </tr>
                 </thead>
                 <tbody>
-                  ${exerciseSheet.exercises.map(ex => {
-                    const parts = ex.split("–");
-                    return `
-                      <tr>
-                        <td>${parts[0].trim()}</td>
-                        <td>${parts[1] ? parts[1].trim() : ''}</td>
-                      </tr>
-                    `;
-                  }).join('')}
+                  ${exerciseSheet.exercises.map(ex => `
+                    <tr>
+                      <td>${ex.name}</td>
+                      <td>${ex.sets}</td>
+                    </tr>
+                  `).join('')}
                 </tbody>
               </table>
             </div>
@@ -171,19 +192,10 @@ function displayResults(formData, results) {
           <button class="btn btn-success me-2" onclick="window.print()">
             <i class="fas fa-print me-2"></i>Imprimir Plano
           </button>
-          <button class="btn btn-outline-primary" id="save-plan-btn">
-            <i class="fas fa-save me-2"></i>Salvar Plano
-          </button>
         </div>
       </div>
     </div>
   `;
-
-  // Adicionar evento ao botão de salvar (funcionalidade premium)
-  document.getElementById("save-plan-btn")?.addEventListener("click", function() {
-    alert("Para salvar seus planos, assine nosso serviço premium!");
-    document.getElementById("premium-plans").scrollIntoView({ behavior: 'smooth' });
-  });
 }
 
 function getImcBadgeClass(imc) {
