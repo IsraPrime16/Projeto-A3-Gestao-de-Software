@@ -192,7 +192,7 @@ body {
 }
 
 /* Efeitos de transição */
-.fade-in {
+.fade-in1 {
   animation: fadeIn 0.8s ease-in;
 }
 
