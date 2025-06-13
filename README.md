@@ -19,11 +19,11 @@
 * Interface responsiva e intuitiva, adaptada para diferentes dispositivos (computadores, tablets e smartphones).
 
 ## Tecnologias Utilizadas:
-* Frontend: **HTML5 e CSS3** para estruturação e estilização das páginas, garantindo uma navegação fluida, responsiva e visualmente agradável.
+* ***Frontend***: **HTML5 e CSS3** para estruturação e estilização das páginas, garantindo uma navegação fluida, responsiva e visualmente agradável.
 
-* Backend: **JavaScript**, responsável pelo processamento das informações, geração dinâmica de conteúdos personalizados e integração com os módulos de autenticação e plano alimentar.
+* ***Backend***: **JavaScript**, responsável pelo processamento das informações, geração dinâmica de conteúdos personalizados e integração com os módulos de autenticação e plano alimentar.
 
-* Estrutura Modular: Desenvolvimento orientado à **escalabilidade**, permitindo a fácil manutenção e adição de novas funcionalidades.
+* ***Estrutura Modular***: Desenvolvimento orientado à **escalabilidade**, permitindo a fácil manutenção e adição de novas funcionalidades.
 
 ## Etapas do Desenvolvimento:
 O projeto foi conduzido em etapas bem definidas, visando um processo de construção estruturado e eficiente:
