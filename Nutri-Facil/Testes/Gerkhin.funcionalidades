@@ -9,13 +9,13 @@ Cenário: Cálculo para homem adulto
   Dado que selecionei o sexo "Masculino"
   E inseri peso "80kg", altura "175cm" e idade "30 anos"
   Quando o sistema calcular a TMB
-  Então o resultado deve ser "1743.75 kcal/dia"
+  Então o resultado deve ser "1748.75 kcal/dia"
 
 Cenário: Cálculo para mulher adulta
   Dado que selecionei o sexo "Feminino"
   E inseri peso "65kg", altura "165cm" e idade "25 anos"
   Quando o sistema calcular a TMB
-  Então o resultado deve ser "1386.25 kcal/dia"
+  Então o resultado deve ser "1395.25 kcal/dia"
 
 FT-02: Geração de receita com restrições
 
