@@ -11,7 +11,7 @@ Passos:
 2. Inserir peso 80kg
 3. Inserir altura 175cm
 4. Inserir idade 30
-5. Submeter formulário
+5. Calcular Dieta 
 		
 Dados de Entrada:
 Sexo: M
@@ -19,10 +19,10 @@ Peso: 80
 Altura: 175
 Idade: 30
 		
-Resultado Esperado - TMB = 1743.75 kcal/dia
+Resultado Esperado - TMB = 1748.75 kcal/dia
 	
-Resultado Obtido - 1743.75 kcal/dia
+Resultado Obtido - 1748.75 kcal/dia
 	
 Status - ✅
 	
-Observações - Cálculo correto
+* Observações - Cálculo correto (os campos Dieta, Objetivo, Nível de Condicionamento Físico precisam estar devidamente preenchidos.)
