@@ -67,15 +67,15 @@ Cenário: Iniciante com objetivo de hipertrofia
   Dado que selecionei objetivo "Hipertrofia"
   E nível "Iniciante"
   Quando o sistema gerar o plano
-  Então deve conter exercícios básicos como "Agachamento - 3x10"
+  Então deve conter exercícios básicos como "Agachamento livre - 4x10-12"
   E descanso recomendado de "60-90s entre séries"
 
-Cenário: Avançado com objetivo de resistência
-  Dado que selecionei objetivo "Resistência"
+Cenário: Avançado com objetivo de emgarecimento
+  Dado que selecionei objetivo "Emagrecimento"
   E nível "Avançado"
   Quando o sistema gerar o plano
-  Então deve conter circuitos como "Burpee - 4x15"
-  E descanso reduzido "30s entre exercícios"
+  Então deve conter circuitos como "Burpee com salto - 4x12"
+  E descanso reduzido "15-20s entre séries"
 
 FT-05: Validação de dados de entrada
 
@@ -87,11 +87,11 @@ Funcionalidade: Validação de campos do formulário
 Cenário: Peso inválido
   Dado que inseri peso "5kg"
   Quando tentar submeter o formulário
-  Então deve mostrar alerta "Por favor, insira um peso válido"
+  Então deve mostrar alerta "O valor deve ser maior ou igual a 30"
   E não deve prosseguir com o cálculo
 
 Cenário: Altura fora do limite
   Dado que inseri altura "50cm"
   Quando tentar submeter o formulário
-  Então deve mostrar alerta "Por favor, insira uma altura válida"
+  Então deve mostrar alerta "O valor deve ser maior ou igual a 100"
   E manter os dados preenchidos para correção
