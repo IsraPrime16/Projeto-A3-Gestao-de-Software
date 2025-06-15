@@ -23,6 +23,6 @@ Resultado Esperado - TMB = 1395.25 kcal/dia
 	
 Resultado Obtido - 1386.25 kcal/dia
 	
-Status - ✅
+Status - ❌
 	
 * Observações - Cálculo correto, mas resultado incorreto (os campos Dieta, Objetivo, Nível de Condicionamento Físico precisam estar devidamente preenchidos.)
