@@ -22,10 +22,10 @@ Verificar a clareza do plano alimentar gerado
 3. Tarefas
 
                                                                                                                      
-    |   Nº	  |                Descrição da Tarefa	                   | Tempo Alvo	  |  Tempo Real	 | Sucesso 	    |      Erros/Dificuldades	   |     Observações do Usuário          |
-    |   1	  |           Selecionar dieta "Cetogênica"	               |     30s	    |      15s	   |    S	    |              -	           |      "Fácil de encontrar"           | 
-    |   2	  |          Preencher dados pessoais                      |     60s	    |      45s	   |    S	    |   Confundiu cm/m na altura   |  "Campo de altura poderia ter dica" |               
-    |   3	  |        Adicionar 3 preferências alimentares            |  	 45s	    |      60s	   |    N	    | Não viu o campo inicialmente |   "Esperava um botão mais visível"  |
-    |   4	  |      Registrar alergia a ovo                           |  	 30s	    |      40s	   |    S	    |              -	           |     "Dropdown poderia ter busca"    |                                    
-    |   5     |     Selecionar objetivo "Emagrecimento"                |     20s        |      10s     |    S       |              -               |   "Fácil de localizar o objetivo"   |
+    |   Nº	|                Descrição da Tarefa	                 | Tempo Alvo	  |  Tempo Real	 | Sucesso    |      Erros/Dificuldades	         |     Observações do Usuário          |
+    |   1	  |           Selecionar dieta "Cetogênica"	               |     30s	    |      15s	   |    S	    |              -	                 |      "Fácil de encontrar"           | 
+    |   2	  |          Preencher dados pessoais                      |     60s	    |      45s	   |    S	    |   Confundiu cm/m na altura       |  "Campo de altura poderia ter dica" |               
+    |   3	  |        Adicionar 3 preferências alimentares            |  	 45s	    |      60s	   |    N	    | Não viu o campo inicialmente     |   "Esperava um botão mais visível"  |
+    |   4	  |      Registrar alergia a ovo                           |  	 30s	    |      40s	   |    S	    |              -	                 |     "Dropdown poderia ter busca"    |                                    
+    |   5   |     Selecionar objetivo "Emagrecimento"                |     20s      |      10s     |    S     |              -                   |   "Fácil de localizar o objetivo"   |
    
