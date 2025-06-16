@@ -25,4 +25,4 @@ Nº	Descrição da Tarefa	               Tempo Alvo	 Tempo Real	Sucesso	   Erros
 1	Selecionar dieta "Mediterrânea"	       25s	         10s	        S	   -	                         "Fácil de encontrar"
 2	Preencher dados pessoais	       40s	         25s	        S	   Confundiu cm/m na altura	 "Campo de altura poderia ter dica"
 3	Adicionar 3 preferências alimentares   25s	         40s	        N	   Não viu o campo inicialmente	 "Esperava um botão mais visível"
-4	Registrar alergia a ovo	            20s	         10s	        S	   -	                         "Dropdown poderia ter busca"
+4	Registrar alergia a ovo	              20s	         10s	        S	   -	                         "Dropdown poderia ter busca"
