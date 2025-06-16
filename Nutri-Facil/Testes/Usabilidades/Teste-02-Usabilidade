@@ -23,7 +23,7 @@ Verificar a clareza do plano alimentar gerado
                                                                                                              
 Nº	Descrição da Tarefa	                       Tempo Alvo	 Tempo Real	Sucesso	   Erros/Dificuldades	           Observações do Usuário
 1	Selecionar dieta "Mediterrânea"	               30s	         15s	        S	   -	                           "Fácil de encontrar"
-2	Preencher dados pessoais	               40s	         30s	        S	   -	                          "Campo de altura poderia ter dica"
+2	Preencher dados pessoais	               40s	         30s	        S	   -	                           "Campo de altura poderia ter dica"
 3	Adicionar 3 preferências alimentares           50s	         40s	        S	   Não viu o campo inicialmente	   "Esperava um botão mais visível"
 4	Registrar alergia a glúten	               40s	         40s	        S	   -	                           "Dropdown poderia ter busca"
 5       Selecionar o objetivo "Emagrecimento"          20s               30s            N          Demorou para localizar o campo  "Poderia já estar escrito no campo "Emagrecimento" quando abrir o formulário"
