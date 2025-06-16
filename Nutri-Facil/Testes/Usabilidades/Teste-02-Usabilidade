@@ -2,9 +2,9 @@ Teste de Usabilidade
 
 1. Dados do Participante
 
-Nome: Usuário 02
+Nome: Usuário 01
 
-Perfil: Intermediário
+Perfil: Iniciante
 
 Data: 15/06/2023
 
@@ -21,8 +21,9 @@ Verificar a clareza do plano alimentar gerado
 
 3. Tarefas
                                                                                                              
-Nº	Descrição da Tarefa	               Tempo Alvo	 Tempo Real	Sucesso	   Erros/Dificuldades	         Observações do Usuário
-1	Selecionar dieta "Mediterrânea"	       25s	         10s	        S	   -	                         "Fácil de encontrar"
-2	Preencher dados pessoais	       40s	         25s	        S	   Confundiu cm/m na altura	 "Campo de altura poderia ter dica"
-3	Adicionar 3 preferências alimentares   25s	         40s	        N	   Não viu o campo inicialmente	 "Esperava um botão mais visível"
-4	Registrar alergia a ovo	               20s	         10s	        S	   -	                         "Dropdown poderia ter busca"
+Nº	Descrição da Tarefa	                       Tempo Alvo	 Tempo Real	Sucesso	   Erros/Dificuldades	           Observações do Usuário
+1	Selecionar dieta "Cetogênica"	               30s	         15s	        S	   -	                           "Fácil de encontrar"
+2	Preencher dados pessoais	               60s	         45s	        S	   Confundiu cm/m na altura	   "Campo de altura poderia ter dica"
+3	Adicionar 3 preferências alimentares           45s	         60s	        N	   Não viu o campo inicialmente	   "Esperava um botão mais visível"
+4	Registrar alergia a ovo	                       30s	         40s	        S	   -	                           "Dropdown poderia ter busca"
+5       Selecionar o objetivo "Emagrecimento"          20s               30s            N          Demorou para localizar o campo  "Poderia já estar escrito no campo "Emagrecimento" quando abrir o formulário"
