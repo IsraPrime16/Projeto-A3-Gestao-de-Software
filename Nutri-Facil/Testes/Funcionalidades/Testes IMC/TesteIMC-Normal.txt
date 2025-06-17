@@ -1,0 +1,24 @@
+Teste de IMC
+
+ID - FT-02
+
+Funcionalidade - Cálculo de IMC Normal
+	
+Pré-Condição - Formulário carregado, campos de peso/altura preenchidos e válidos
+	 	
+Passos: 
+1. Inserir peso 65kg
+2. Inserir altura 175cm
+3. Calcular Dieta 
+		
+Dados de Entrada:
+Peso: 65
+Altura: 175
+		
+Resultado Esperado - IMC=21.22 + badge verde "Peso normal"
+	
+Resultado Obtido - IMC=21.22 + badge verde "Peso normal"
+	
+Status - ✅
+	
+* Observações - Cálculo correto (os campos Dieta, Objetivo, Nível de Condicionamento Físico precisam estar devidamente preenchidos.)
