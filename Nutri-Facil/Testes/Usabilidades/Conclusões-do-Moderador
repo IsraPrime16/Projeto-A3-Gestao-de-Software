@@ -1,0 +1,29 @@
+Conclusões do Moderador:
+
+Principais Bloqueios Encontrados:
+🔴 Dificuldade em localizar campos específicos (alergias e preferências alimentares) devido à falta de destaque visual.
+🔴 Falta de feedback claro após a geração do plano, deixando usuários inseguros se o processo foi concluído.
+🔴 Dropdown de alergias sem busca, dificultando a seleção quando há muitas opções.
+🔴 Ausência de explicação sobre o IMC, gerando dúvidas em usuários leigos sobre o significado da classificação.
+🔴 Confusão entre unidades de medida (ex.: altura em cm vs. metros) por falta de indicação clara nos campos.
+
+Pontos Fortes Observados:
+✅ Cálculos precisos e rápidos (TMB, IMC, hidratação) com resultados confiáveis.
+✅ Personalização eficiente (dieta, treino e restrições alimentares).
+✅ Interface limpa e organizada, facilitando a navegação geral.
+✅ Geração de receitas adaptáveis, considerando alergias e preferências do usuário.
+✅ Opções de exportação (impressão/salvamento) do plano gerado.
+
+Recomendações para Próxima Iteração:
+🛠 Melhorar a visibilidade de campos críticos (alergias, preferências) com ícones ou labels destacados.
+🛠 Adicionar confirmação visual (toast message/animação) após gerar o plano.
+🛠 Implementar busca no dropdown de alergias para facilitar a seleção.
+🛠 Incluir tooltips ou placeholders explicando unidades (ex.: "Altura (cm)") e conceitos (IMC).
+🛠 Adicionar uma seção de ajuda com explicações breves (ex.: "O que é TMB?", "Como interpretar seu IMC").
+🛠 Testar versão mobile (se aplicável), pois alguns campos podem precisar de ajustes responsivos.
+
+Resumo Final
+O sistema cumpre bem seu propósito principal, mas pequenos ajustes de usabilidade podem eliminar frustrações e tornar a experiência mais intuitiva. Priorizar:
+
+Feedback visual (confirmações de ação✅).
+
