@@ -1,1 +1,24 @@
+Teste de Exercícios Personalizados
 
+ID - FT-01
+
+Funcionalidade - Hipertrofia Iniciante
+	
+Pré-Condição - Formulário preenchido, objetivo, nível selecionado
+	 	
+Passos: 
+1. Selecionar objetivo "Hipertrofia"
+2. Selecionar "Iniciante" em condicionamento físico
+3. Clicar em Calcular Dieta
+		
+Dados de Entrada:
+Objetivo: Hipertrofia
+Nível: Iniciante
+		
+Resultado Esperado - Agachamento livre 4x10-12 + descanso 60-90s
+	
+Resultado Obtido - Agachamento livre 4x10-12 + descanso 60-90s
+	
+Status - ✅
+	
+* Observações - Checar complexidade dos exercícios (os campos Dieta, Objetivo, Nível de Condicionamento Físico precisam estar devidamente preenchidos.)
