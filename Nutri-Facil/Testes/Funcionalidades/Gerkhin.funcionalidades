@@ -1,0 +1,97 @@
+FT-01: Cálculo de TMB (Taxa Metabólica Basal)
+
+Funcionalidade: Cálculo preciso da TMB
+  Como um usuário do sistema
+  Eu quero que minha TMB seja calculada corretamente
+  Para obter recomendações nutricionais precisas
+
+Cenário: Cálculo para homem adulto
+  Dado que selecionei o sexo "Masculino"
+  E inseri peso "80kg", altura "175cm" e idade "30 anos"
+  Quando o sistema calcular a TMB
+  Então o resultado deve ser "1748.75 kcal/dia"
+
+Cenário: Cálculo para mulher adulta
+  Dado que selecionei o sexo "Feminino"
+  E inseri peso "65kg", altura "165cm" e idade "25 anos"
+  Quando o sistema calcular a TMB
+  Então o resultado deve ser "1395.25 kcal/dia"
+
+FT-02: Geração de receita com restrições
+
+Funcionalidade: Geração de receita segura
+  Como um usuário com alergias
+  Eu quero receber receitas que evitem ingredientes perigosos
+  Para manter minha segurança alimentar
+
+Cenário: Receita sem lactose
+  Dado que selecionei alergia a "Lactose"
+  E incluí "queijo" nas preferências
+  Quando o sistema gerar uma receita
+  Então ela não deve conter nenhum derivado de leite
+  E deve indicar claramente "Receita sem lactose"
+
+Cenário: Receita vegetariana sem glúten
+  Dado que selecionei dieta "Vegetariana"
+  E alergia a "Glúten"
+  Quando o sistema gerar uma receita
+  Então ela não deve conter carne nem trigo/centeio/cevada
+
+FT-03: Classificação de IMC
+
+Funcionalidade: Avaliação correta do IMC
+  Como um usuário preocupado com saúde
+  Eu quero uma classificação precisa do meu IMC
+  Para entender meu estado nutricional
+
+Cenário: IMC na faixa de obesidade
+  Dado que inseri peso "110kg" e altura "170cm"
+  Quando o sistema calcular o IMC
+  Então a classificação deve ser "Obesidade"
+  E o badge deve aparecer em vermelho (danger)
+
+Cenário: IMC na faixa normal
+  Dado que inseri peso "65kg" e altura "175cm"
+  Quando o sistema calcular o IMC
+  Então a classificação deve ser "Peso normal"
+  E o badge deve aparecer em verde (success)
+
+FT-04: Plano de exercícios personalizado
+
+Funcionalidade: Geração de plano de treino
+  Como um usuário com objetivo fitness
+  Eu quero receber exercícios adequados ao meu nível
+  Para evoluir com segurança
+
+Cenário: Iniciante com objetivo de hipertrofia
+  Dado que selecionei objetivo "Hipertrofia"
+  E nível "Iniciante"
+  Quando o sistema gerar o plano
+  Então deve conter exercícios básicos como "Agachamento livre - 4x10-12"
+  E descanso recomendado de "60-90s entre séries"
+
+Cenário: Avançado com objetivo de emgarecimento
+  Dado que selecionei objetivo "Emagrecimento"
+  E nível "Avançado"
+  Quando o sistema gerar o plano
+  Então deve conter circuitos como "Burpee com salto - 4x12"
+  E descanso reduzido "15-20s entre séries"
+
+FT-05: Validação de dados de entrada
+
+Funcionalidade: Validação de campos do formulário
+  Como um usuário leigo
+  Eu quero ser alertado sobre dados inválidos
+  Para evitar resultados incorretos
+
+Cenário: Peso inválido
+  Dado que inseri peso "5kg"
+  Quando tentar submeter o formulário
+  Então deve mostrar alerta "O valor deve ser maior ou igual a 30"
+  E não deve prosseguir com o cálculo
+
+Cenário: Altura fora do limite
+  Dado que inseri altura "50cm"
+  Quando tentar submeter o formulário
+  Então deve mostrar alerta "O valor deve ser maior ou igual a 100"
+  E manter os dados preenchidos para correção
