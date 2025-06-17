@@ -1,1 +1,22 @@
+Teste de Validação de Dados de Entrada
 
+ID - FT-02
+
+Funcionalidade - Altura Inválida
+	
+Pré-Condição - Formulário carregado, campos vazios
+	 	
+Passos: 
+1. Inserir altura 50cm
+3. Tentar Calcular Dieta 
+		
+Dados de Entrada:
+Altura: 50
+
+Resultado Esperado - Alerta "Valor deve ser ≥100cm" + bloqueio
+	
+Resultado Obtido - Alerta "Valor deve ser ≥100cm" + bloqueio
+	
+Status - ✅
+	
+* Observações - Checar retenção do dado digitado (os campos Dieta, Objetivo, Nível de Condicionamento Físico precisam estar devidamente preenchidos.)
