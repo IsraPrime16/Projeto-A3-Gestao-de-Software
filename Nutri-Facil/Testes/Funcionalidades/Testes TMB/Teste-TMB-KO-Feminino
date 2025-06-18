@@ -1,0 +1,28 @@
+Teste de TMB KO
+
+ID - FT-01-02
+
+Funcionalidade - Cálculo de TMB Feminina
+	
+Pré-Condição - Formulário carregado, campos vazios
+	 	
+Passos: 
+1. Selecionar sexo "Feminino"
+2. Inserir peso 60kg
+3. Inserir altura 165cm
+4. Inserir idade 25
+5. Calcular Dieta 
+		
+Dados de Entrada:
+Sexo: F
+Peso: 60
+Altura: 165
+Idade: 25
+		
+Resultado Esperado - TMB = 1395.25 kcal/dia
+	
+Resultado Obtido - 1386.25 kcal/dia
+	
+Status - ❌
+	
+* Observações - Cálculo correto, mas resultado incorreto (os campos Dieta, Objetivo, Nível de Condicionamento Físico precisam estar devidamente preenchidos.)

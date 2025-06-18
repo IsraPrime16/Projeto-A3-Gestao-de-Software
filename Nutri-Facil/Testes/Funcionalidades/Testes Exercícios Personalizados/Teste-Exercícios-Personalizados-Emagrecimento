@@ -1,0 +1,24 @@
+Teste de Exercícios Personalizados
+
+ID - FT-04-02
+
+Funcionalidade - Emagrecimento Avançado
+	
+Pré-Condição - Formulário preenchido, configuração completa
+	 	
+Passos: 
+1. Escolher objetivo "Emagrecimento"
+2. Selecionar "Avançado" em condicionamento físico
+3. Clicar em Calcular Dieta
+		
+Dados de Entrada:
+Objetivo: Emagecimento
+Nível: Avançado
+		
+Resultado Esperado - Circuito com Burpee 4x12 + descanso 15-20s
+	
+Resultado Obtido - Burpee com salto 4x12 + descanso 15-20s
+	
+Status - ✅
+	
+* Observações - Validar intensidade (os campos Dieta, Objetivo, Nível de Condicionamento Físico precisam estar devidamente preenchidos.)

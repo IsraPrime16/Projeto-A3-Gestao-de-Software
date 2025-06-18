@@ -1,0 +1,24 @@
+Teste de Receita com Restrição
+
+ID - FT-02-02
+
+Funcionalidade - Receita Vegetariana sem Glúten
+	
+Pré-Condição - Formulário preenchido com a dieta selecionada
+	 	
+Passos: 
+1. Escolher dieta "Vegetariana"
+2. Selecionar alergia "Glúten"
+3. Clicar em Calcular Dieta
+		
+Dados de Entrada:
+Dieta: Vegetariana
+Alergia: Glúten
+		
+Resultado Esperado - Receita sem carne/trigo/centeio/cevada
+	
+Resultado Obtido - Receita montada sem carne, com vegetais variados, proteínas magras, e com alimentos sem glúten
+	
+Status - ✅
+	
+* Observações - Checar ingredientes substitutos (os campos Dieta, Objetivo, Nível de Condicionamento Físico precisam estar devidamente preenchidos.)

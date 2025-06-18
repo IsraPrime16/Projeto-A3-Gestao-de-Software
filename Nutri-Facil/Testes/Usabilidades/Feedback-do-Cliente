@@ -1,0 +1,35 @@
+Feedback Aberto do Cliente:
+
+1. O que você mais gostou?
+✅ "A calculadora de IMC e TMB é muito precisa e rápida."
+✅ "As receitas geradas levam em conta minhas alergias, o que é ótimo para segurança alimentar."
+✅ "O plano de treino é bem personalizado conforme meu objetivo (emagrecimento/hipertrofia)."
+✅ "A interface é limpa e os resultados são exibidos de forma organizada."
+✅ "Gostei da opção de imprimir ou salvar o plano gerado."
+
+2. O que você achou mais difícil?
+❌ "Não ficou claro onde adicionar alergias no formulário."
+❌ "O campo de preferências alimentares poderia ser mais destacado."
+❌ "O dropdown de alergias não tem busca, o que dificulta se houver muitas opções."
+❌ "A classificação do IMC aparece, mas sem explicação sobre o que significa."
+❌ "Não há confirmação visual quando o plano é gerado com sucesso."
+
+3. Sugestões de Melhoria
+🔧 "Adicionar um tooltip explicando cada campo (ex.: objetivo: emagrecimento(perca de massa corpórea), hipertrofia(ganho de massa muscular))."
+🔧 "Melhorar a visibilidade do campo 'Preferências Alimentares' com um ícone ou borda destacada."
+🔧 "Incluir uma breve explicação sobre o significado do IMC (ex.: '18.5-24.9 = Peso normal')."
+🔧 "Adicionar uma animação ou mensagem de confirmação quando o plano é gerado."
+🔧 "Incluir busca no dropdown de alergias para facilitar a seleção."
+
+Conclusão do Feedback
+O sistema já possui ótimos recursos, como cálculos precisos, personalização de dieta e treino, e interface intuitiva. No entanto, pequenos ajustes de usabilidade (como destaque de campos e feedback visual) e informações adicionais (explicações sobre IMC, TMB e tooltips) podem melhorar significativamente a experiência do usuário.
+
+📌 Prioridades de Melhoria:
+
+Explicação clara sobre IMC, TMB (adicionar legenda ou link para mais informações).
+
+Campo de alergias mais intuitivo (busca no dropdown ou exemplo de preenchimento).
+
+Confirmação visual (animação/mensagem) após gerar o plano.
+
+Essas mudanças tornariam o sistema ainda mais amigável e eficiente para todos os usuários. 🚀

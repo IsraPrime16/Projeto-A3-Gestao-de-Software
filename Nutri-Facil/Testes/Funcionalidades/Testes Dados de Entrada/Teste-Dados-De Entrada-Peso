@@ -1,0 +1,22 @@
+Teste de Validação de Dados de Entrada
+
+ID - FT-05-01
+
+Funcionalidade - Peso Inválido
+	
+Pré-Condição - Formulário carregado
+	 	
+Passos: 
+1. Inserir peso 5kg
+3. Tentar Calcular Dieta 
+		
+Dados de Entrada:
+Peso: 5
+
+Resultado Esperado - Alerta "Valor deve ser ≥30kg" + bloqueio
+	
+Resultado Obtido - Alerta "Valor deve ser ≥30kg" + bloqueio
+	
+Status - ✅
+	
+* Observações - Verificar mensagem específica (os campos Dieta, Objetivo, Nível de Condicionamento Físico precisam estar devidamente preenchidos.)
