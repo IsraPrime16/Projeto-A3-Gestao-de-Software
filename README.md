@@ -50,6 +50,7 @@ A plataforma foi pensada com uma arquitetura que permite sua evolução contínu
 ##  Estrutura do Projeto:
 
 projeto/
+
 ├── index.html
 ├── css/
 │   └── style.css
