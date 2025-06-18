@@ -47,16 +47,15 @@ A plataforma foi pensada com uma arquitetura que permite sua evolução contínu
 
 * Sistema de chat com nutricionistas e profissionais de saúde, para orientação individualizada.
 
-<details>
-  <sumary><b>## Estrutura do Projeto</sumary>
-    projeto/
+```text
+projeto/
 │
-├── 📄 index.html
-├── 📂 css
-│ └── 📄 style.css
-└── 📂 js
-├── 📄 calculator.js
-├── 📄 exercises.js
-├── 📄 recipes.js
-└── 📄 main.js
-</details>
+├── index.html
+├── css/
+│   └── style.css
+└── js/
+    ├── calculator.js
+    ├── exercises.js
+    ├── recipes.js
+    └── main.js
+```
