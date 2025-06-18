@@ -26,4 +26,4 @@ Nº	Descrição da Tarefa	                       Tempo Alvo	 Tempo Real	Sucesso	
 2	Preencher dados pessoais	               50s	         30s	        S	   Confundiu cm/m na altura	   "Campo de altura poderia ter dica"
 3	Adicionar 3 preferências alimentares           30s	         15s	        N	   Não viu o campo inicialmente	   "Esperava um botão mais visível"
 4	Registrar alergia a glúten	               30s	         20s	        S	   -	                           "Dropdown poderia ter busca"
-5       Selecionar o objetivo "Emagrecimento"          20s               10s            N          Demorou para localizar o campo  "Poderia já estar escrito no campo "Emagrecimento" quando abrir o formulário"
+5       Selecionar o objetivo "Hipertofia"          20s               10s            N          Demorou para localizar o campo  "Poderia já estar escrito no campo "Hipertrofia" quando abrir o formulário"
