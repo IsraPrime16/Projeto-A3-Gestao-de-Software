@@ -49,12 +49,12 @@ A plataforma foi pensada com uma arquitetura que permite sua evolução contínu
 
 ##  Estrutura do Projeto:
 
-Nutri-Facil/
-├── index.html # Página principal do aplicativo
-├── css/
-│ └── style.css # Estilos principais do projeto
-└── js/
-├── calculator.js # Lógica da calculadora de dieta
-├── exercises.js # Planos de exercícios
-├── recipes.js # Gerador de receitas saudáveis
-└── main.js # Scripts principais e funcionalidades gerais
+📦 projeto
+├── 📄 index.html
+├── 📂 css
+│   └── 📄 style.css
+└── 📂 js
+    ├── 📄 calculator.js
+    ├── 📄 exercises.js
+    ├── 📄 recipes.js
+    └── 📄 main.js
