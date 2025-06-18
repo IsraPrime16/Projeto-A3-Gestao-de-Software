@@ -50,15 +50,14 @@ A plataforma foi pensada com uma arquitetura que permite sua evolução contínu
 # Estrutura do Projeto:
 
 ```text
-Nutri-Facil/
-├── Codigo Principal
-    └── index.html
-    └── css/
-        └── style.css
-    └── js/
-        └── ├── calculator.js
-            ├── exercises.js
-            ├── recipes.js
-        └── main.js
-    
+projeto/
+│
+├── index.html
+├── css/
+│   └── style.css
+└── js/
+    ├── calculator.js
+    ├── exercises.js
+    ├── recipes.js
+    └── main.js
 ```
