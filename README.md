@@ -51,13 +51,14 @@ A plataforma foi pensada com uma arquitetura que permite sua evolução contínu
 
 ```text
 Nutri-Facil/
-│──
-├── index.html
-├── css/
-│   └── style.css
-└── js/
-    ├── calculator.js
-    ├── exercises.js
-    ├── recipes.js
-    └── main.js
+├── Codigo Principal
+    └── index.html
+    └── css/
+        └── style.css
+    └── js/
+        └── ├── calculator.js
+            ├── exercises.js
+            ├── recipes.js
+        └── main.js
+    
 ```
