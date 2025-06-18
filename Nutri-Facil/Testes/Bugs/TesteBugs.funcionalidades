@@ -9,6 +9,6 @@ BUG-03-01	FT-03-01	                Classificação de IMC para obesidade exibe b
 BUG-04-01	FT-04-02	                Plano de emagrecimento avançado não reduz o tempo de descanso para 15-20s entre séries	                                        Alta	                Em aberto	 Equipe de Fitness	         Link para Issue #125
 
 BUG-05-01	FT-05-01	                Mensagem de validação para peso inválido exibe texto genérico ("Valor inválido") em vez do específico                           Baixa                   Em aberto	 Equipe de UX	                 Link para Issue #126
-                                                ("O valor deve ser maior ou igual a 30")                                                                                            	               
+                                              ("O valor deve ser maior ou igual a 30")                                                                                            	               
 
 
