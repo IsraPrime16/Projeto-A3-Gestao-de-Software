@@ -2,7 +2,7 @@ Registro de Bugs
 
 ID do Bug	Caso de Teste Relacionado	Descrição do Problema	                                                                                               Severidade (Alta/Média/Baixa)	Status	         Responsável	                 Link para Issue
 
-BUG-01	FT-02	TMB calculada incorretamente para valores extremos	Alta	Em aberto	
+BUG-01-01	FT-02	                    TMB calculada incorretamente para valores extremos	Alta	Em aberto	
 
 BUG-02-01	FT-02-01	                Receita contendo ingredientes com lactose não exibe a tag "Sem lactose" mesmo quando a alergia está selecionada	                Alta	                Fechada	         Equipe de Desenvolvimento	 https://github.com/IsraPrime16/Projeto-A3-Gestao-de-Software/issues/11
 
