@@ -49,7 +49,7 @@ A plataforma foi pensada com uma arquitetura que permite sua evolução contínu
 
 ##  Estrutura do Projeto:
 
-projeto/
+Nutri-Facil/
 ├── index.html # Página principal do aplicativo
 ├── css/
 │ └── style.css # Estilos principais do projeto
