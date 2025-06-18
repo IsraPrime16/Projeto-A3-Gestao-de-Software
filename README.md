@@ -49,13 +49,13 @@ A plataforma foi pensada com uma arquitetura que permite sua evolução contínu
 
 ##  Estrutura do Projeto:
 
-  projeto/
+projeto/
 ├── index.html
 ├── css/
-│ └── style.css
+│   └── style.css
 └── js/
-├── calculator.js 
-├── exercises.js 
-├── recipes.js 
-└── main.js 
+    ├── calculator.js
+    ├── exercises.js
+    ├── recipes.js
+    └── main.js
 
