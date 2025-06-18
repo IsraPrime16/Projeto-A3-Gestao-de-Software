@@ -47,6 +47,18 @@ A plataforma foi pensada com uma arquitetura que permite sua evolução contínu
 
 * Sistema de chat com nutricionistas e profissionais de saúde, para orientação individualizada.
 
+  Estrutura do Projeto:
+
+  projeto/
+├── index.html # Página principal do aplicativo
+├── css/
+│ └── style.css # Estilos principais do projeto
+└── js/
+├── calculator.js # Lógica da calculadora de dieta
+├── exercises.js # Planos de exercícios
+├── recipes.js # Gerador de receitas saudáveis
+└── main.js # Scripts principais e funcionalidades gerais
+
 * Painel de progresso do usuário com gráficos, metas e histórico de desempenho.
 
 * Disponibilização de notificações e lembretes inteligentes.
