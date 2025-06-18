@@ -52,7 +52,9 @@ A plataforma foi pensada com uma arquitetura que permite sua evolução contínu
 projeto/
 
 ├── index.html
+
 ├── css/
+
 │   └── style.css
 └── js/
     ├── calculator.js
