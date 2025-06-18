@@ -55,7 +55,7 @@ projeto/
 
 ├── css/
 
-│   └── style.css
+│      └── style.css
 └── js/
     ├── calculator.js
     ├── exercises.js
