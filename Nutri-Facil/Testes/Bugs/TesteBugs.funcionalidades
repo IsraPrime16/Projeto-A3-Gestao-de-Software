@@ -1,7 +1,7 @@
 Registro de Bugs
 ID do Bug	Caso de Teste Relacionado	Descrição do Problema	Severidade (Alta/Média/Baixa)	Status	Responsável	Link para Issue
-BUG-02-01	FT-02-01	Receita contendo ingredientes com lactose não exibe a tag "Sem lactose" mesmo quando a alergia está selecionada	Alta	Em aberto	Equipe de Desenvolvimento	Link para Issue #123
-BUG-03-01	FT-03-01	Classificação de IMC para obesidade exibe badge em cor laranja (warning) em vez de vermelho (danger)	Média	Em aberto	Equipe de Front-end	Link para Issue #124
-BUG-04-01	FT-04-02	Plano de emagrecimento avançado não reduz o tempo de descanso para 15-20s entre séries	Alta	Em aberto	Equipe de Fitness	Link para Issue #125
-BUG-05-01	FT-05-01	Mensagem de validação para peso inválido exibe texto genérico ("Valor inválido") em vez do específico ("O valor deve ser maior ou igual a 30")	Baixa	Em aberto	Equipe de UX	Link para Issue #126
+BUG-02-01	FT-02-01	      Receita contendo ingredientes com lactose não exibe a tag "Sem lactose" mesmo quando a alergia está selecionada	Alta	Em aberto	Equipe de Desenvolvimento	Link para Issue #123
+BUG-03-01	FT-03-01	      Classificação de IMC para obesidade exibe badge em cor laranja (warning) em vez de vermelho (danger)	Média	Em aberto	Equipe de Front-end	Link para Issue #124
+BUG-04-01	FT-04-02	      Plano de emagrecimento avançado não reduz o tempo de descanso para 15-20s entre séries	Alta	Em aberto	Equipe de Fitness	Link para Issue #125
+BUG-05-01	FT-05-01	      Mensagem de validação para peso inválido exibe texto genérico ("Valor inválido") em vez do específico ("O valor deve ser maior ou igual a 30")	Baixa	Em aberto	Equipe de UX	Link para Issue #126
 
