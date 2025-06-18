@@ -50,7 +50,7 @@ A plataforma foi pensada com uma arquitetura que permite sua evolução contínu
 # Estrutura do Projeto:
 
 ```text
-projeto/
+Nutri-Facil/
 │
 ├── index.html
 ├── css/
