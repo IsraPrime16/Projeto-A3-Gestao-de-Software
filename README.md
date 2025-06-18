@@ -28,13 +28,13 @@
 ## 📋 Etapas do Desenvolvimento:
 O projeto foi conduzido em etapas bem definidas, visando um processo de construção estruturado e eficiente:
 
-1. **Planejamento**: Levantamento de requisitos, definição de personas, objetivos e funcionalidades prioritárias.
+1. **Planejamento**: Levantamento de requisitos, Definição de personas, Objetivos e Funcionalidades Prioritárias.
 
-2. **Criação do Layout**: Elaboração de protótipos e design da interface com foco em usabilidade e acessibilidade.
+2. **Criação do Layout**: Elaboração de protótipos e Design da Interface com foco em Usabilidade e Acessibilidade.
 
-3. **Codificação**: Implementação das páginas, desenvolvimento da lógica de recomendação personalizada e integração das funcionalidades principais.
+3. **Codificação**: Implementação das páginas, Desenvolvimento da lógica de recomendação personalizada e Integração das funcionalidades principais.
 
-4. **Testes**: Verificação do comportamento da plataforma em diferentes dispositivos, testes de usabilidade e correções de erros.
+4. **Testes**: Verificação do comportamento da plataforma em diferentes dispositivos, Testes de usabilidade e correções de erros.
 
 5. **Lançamento da Versão Inicial**: Publicação da primeira versão funcional e coleta de feedbacks de usuários.
 
