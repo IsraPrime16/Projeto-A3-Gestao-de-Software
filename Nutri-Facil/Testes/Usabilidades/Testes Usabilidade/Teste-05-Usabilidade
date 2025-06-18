@@ -25,5 +25,5 @@ Nº	Descrição da Tarefa	                       Tempo Alvo	 Tempo Real	Sucesso	
 1	Selecionar dieta "Low Carb"	               40s	         45s	        N	   Campo não mostra a dieta quando formulário é carregado	                           "Não foi fácil de encontrar o campo"
 2	Preencher dados pessoais	               60s	         70s	        N	   Confundiu cm/m na altura	                                                         "Campo de altura poderia ter dica"
 3	Adicionar 3 preferências alimentares           45s	         60s	        N	   Não viu o campo inicialmente	                                                "Esperava um botão mais visível"
-4	Registrar alergia a frutos do mar	             30s	         40s	        S	   -	                                                                "Dropdown poderia ter busca"
+4	Registrar alergia a frutos do mar	         30s	         40s	        S	   -	                                                                "Dropdown poderia ter busca"
 5       Selecionar o objetivo "Hipertrofia"          20s               40s            N          Demorou para localizar o campo  "Poderia já estar escrito no campo "Hipertrofia" quando abrir o formulário"
