@@ -69,7 +69,7 @@ Nutri-Fácil/
 ├── Testes/
 │   ├── Funcionalidades/
 │   │   ├── Gherkin/
-│   │   │   └── Gerkhin.funcionalidades
+│   │   │   └── Gherkin.funcionalidades
 │   │   │
 │   │   ├── Dados de Entrada/
 │   │   │   ├── Teste-Dados-De-Entrada-Peso
