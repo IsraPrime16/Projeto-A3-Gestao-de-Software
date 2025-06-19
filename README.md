@@ -19,7 +19,7 @@
 * Interface responsiva e intuitiva, adaptada para diferentes dispositivos (computadores, tablets e smartphones).
 
 ## 🛠️ Tecnologias Utilizadas:
-* ***Frontend***: **HTML5 e CSS3** para estruturação e estilização das páginas, garantindo uma navegação fluida, responsiva e visualmente agradável.
+* ***Frontend***: **HTML5, CSS3 e Bootstrap** para estruturação e estilização das páginas, garantindo uma navegação fluida, responsiva e visualmente agradável.
 
 * ***Backend***: **JavaScript**, responsável pelo processamento das informações, geração dinâmica de conteúdos personalizados e integração com os módulos de autenticação e plano alimentar.
 
