@@ -50,14 +50,37 @@ A plataforma foi pensada com uma arquitetura que permite sua evolução contínu
 # Estrutura do Projeto:
 
 ```text
-Nutri-Facil/
+Nutri-Fácil/
 │
-├── index.html
-├── css/
-│   └── style.css
-└── js/
-    ├── calculator.js
-    ├── exercises.js
-    ├── recipes.js
-    └── main.js
+├── Código-Principal/
+│   ├── index.html
+│   ├── css/
+│   │   └── style.css
+│   └── js/
+│       ├── main.js
+│       ├── calculator.js
+│       ├── exercises.js
+│       └── recipes.js
+│
+├── Slides/
+│   └── Projeto_Nutri_Facil_A3 2.pptx
+│
+├── Testes/
+│   ├── Gherkin/
+│   │   └── Gerkhin.funcionalidades
+│   │
+│   ├── Testes Dados de Entrada/
+│   │   ├── Teste-Dados-De-Entrada-Peso
+│   │   └── Teste-Dados-De-Entrada-Altura
+│   │
+│   ├── Testes Exercícios Personalizados/
+│   ├── Testes IMC/
+│   ├── Testes Receita com Restrições/
+│   ├── Testes TMB/
+│
+│   ├── Bugs/
+│   │   └── Teste-Bugs
+│   │
+│   ├── Funcionalidades/
+│   └── Usabilidades/
 ```
