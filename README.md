@@ -53,7 +53,8 @@ A plataforma foi pensada com uma arquitetura que permite sua evolução contínu
 Nutri-Fácil/
 │
 ├── Código-Principal/
-│   ├── index.html
+│   ├── html/
+│   │   └── index.html
 │   ├── css/
 │   │   └── style.css
 │   └── js/
@@ -92,7 +93,7 @@ Nutri-Fácil/
 │   │   │   ├── Teste-TMB-OK-Feminino
 │   │   │   └── Teste-TMB-OK-Masculino
 │   │   │
-│   │   └── (Outros arquivos de teste de funcionalidades)
+│   │   |
 │
 │   ├── Bugs/
 │   │   └── Teste-Bugs
