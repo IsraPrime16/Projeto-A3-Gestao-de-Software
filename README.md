@@ -49,7 +49,10 @@ A plataforma foi pensada com uma arquitetura que permite sua evolução contínu
 
 # Estrutura do Projeto:
 
-```text
+```plaintext
+# Estrutura de Diretórios do Projeto Nutri-Fácil
+
+```plaintext
 Nutri-Fácil/
 │
 ├── Código-Principal/
@@ -74,13 +77,33 @@ Nutri-Fácil/
 │   │   └── Teste-Dados-De-Entrada-Altura
 │   │
 │   ├── Testes Exercícios Personalizados/
+│   │   ├── Teste-Exercícios-Personalizados-Emagrecimento
+│   │   └── Teste-Exercícios-Personalizados-Hipertrofia
+│   │
 │   ├── Testes IMC/
+│   │   ├── Teste-IMC-Normal
+│   │   └── Teste-IMC-Obesidade
+│   │
 │   ├── Testes Receita com Restrições/
+│   │   ├── Teste-Receita-Com-Restrições-Lactose
+│   │   └── Teste-Receita-Com-Restrições-Vegetariana
+│   │
 │   ├── Testes TMB/
-│
+│   │   ├── Teste-TMB-KO-Feminino
+│   │   ├── Teste-TMB-KO-Masculino
+│   │   ├── Teste-TMB-OK-Feminino
+│   │   └── Teste-TMB-OK-Masculino
+│   │
 │   ├── Bugs/
 │   │   └── Teste-Bugs
 │   │
 │   ├── Funcionalidades/
+│   │   └── (Arquivos de teste de funcionalidades)
+│   │
 │   └── Usabilidades/
+│       ├── Conclusão-do-Moderador
+│       ├── Feedback-do-Cliente
+│       ├── Métricas-Satisfação
+│       └── (Outros arquivos de testes de usabilidade)
+
 ```
