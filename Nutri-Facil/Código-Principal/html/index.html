@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Calculadora de Dieta Saudável</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Fundo com imagens temáticas -->
+  <div class="background-container">
+    <div class="background-overlay"></div>
+    <div class="background-image gym-equipment"></div>
+    <div class="background-image running-people"></div>
+    <div class="background-image healthy-food"></div>
+  </div>
+
+  <!-- Conteúdo principal -->
+  <div class="main-content">
+    <div class="container py-5">
+      <div class="calculator-card">
+        <h1 class="mb-4 text-center">Nutri Fácil - Calculadora de Dieta</h1>
+        <form id="diet-form">
+          <div class="row g-3">
+            <div class="col-md-4">
+              <label for="dieta" class="form-label">Dieta</label>
+              <select class="form-control" id="dieta" required>
+                <option value="" disabled selected>Selecione sua dieta</option>
+                <option value="Mediterrânea">Mediterrânea</option>
+                <option value="Low Carb">Low Carb</option>
+                <option value="Cetogênica">Cetogênica</option>
+                <option value="Vegetariana">Vegetariana</option>
+              </select>
+            </div>
+
+            <div class="col-md-4">
+              <label for="peso" class="form-label">Peso (Kg)</label>
+              <input type="number" class="form-control" id="peso" required min="30" max="300">
+            </div>
+
+            <div class="col-md-4">
+              <label for="altura" class="form-label">Altura (Cm)</label>
+              <input type="number" class="form-control" id="altura" required min="100" max="250">
+            </div>
+
+            <div class="col-md-4">
+              <label for="idade" class="form-label">Idade (Anos)</label>
+              <input type="number" class="form-control" id="idade" required min="12" max="120">
+            </div>
+
+            <div class="col-md-4">
+              <label for="sexo" class="form-label">Sexo</label>
+              <select class="form-control" id="sexo" required>
+                <option value="" disabled selected>Selecione seu sexo</option>
+                <option value="Masculino">Masculino</option>
+                <option value="Feminino">Feminino</option>
+              </select>
+            </div>
+
+            <div class="col-md-4">
+              <label for="objetivo" class="form-label">Objetivo</label>
+              <select class="form-control" id="objetivo" required>
+                <option value="" disabled selected>Selecione seu objetivo</option>
+                <option value="Emagrecimento">Emagrecimento</option>
+                <option value="Hipertrofia">Hipertrofia (Ganho de massa muscular)</option>
+              </select>
+            </div>
+
+            <div class="col-md-4">
+              <label for="nivel" class="form-label">Nível de Condicionamento Físico</label>
+              <select class="form-control" id="nivel" required>
+                <option value="" disabled selected>Selecione seu nível</option>
+                <option value="Iniciante">Iniciante (0-6 meses de treino)</option>
+                <option value="Intermediario">Intermediário (6 meses - 2 anos)</option>
+                <option value="Avancado">Avançado (+2 anos de treino)</option>
+              </select>
+            </div>
+
+            <div class="col-md-8">
+              <label for="alergias" class="form-label">Alergias/Intolerâncias</label>
+              <select id="alergias" class="form-select">
+                <option>Nenhuma</option>
+                <option>Lactose</option>
+                <option>Glúten</option>
+                <option>Proteína do leite</option>
+                <option>Ovo</option>
+                <option>Frutos do mar</option>
+              </select>
+            </div>
+            
+           <div class="col-md-12">
+            <div class="card mb-3">
+              <div class="card-header bg-light">
+                <strong>Preferência de Alimentos</strong>
+              </div>
+              <div class="card-body">
+                <div class="row g-3">
+                  <div class="col-md-3">
+                    <label for="proteinas" class="form-label">Proteínas</label>
+                    <input type="text" class="form-control" id="proteinas" 
+                          placeholder="Ex: Frango, Ovos, Peixe">
+                  </div>
+                  <div class="col-md-3">
+                    <label for="legumes" class="form-label">Legumes</label>
+                    <input type="text" class="form-control" id="legumes" 
+                          placeholder="Ex: Cenoura, Abobrinha, Berinjela">
+                  </div>
+                  <div class="col-md-3">
+                    <label for="verduras" class="form-label">Verduras</label>
+                    <input type="text" class="form-control" id="verduras" 
+                          placeholder="Ex: Alface, Espinafre, Rúcula">
+                  </div>
+                  <div class="col-md-3">
+                    <label for="carboidratos" class="form-label">Carboidratos</label>
+                    <input type="text" class="form-control" id="carboidratos" 
+                          placeholder="Ex: Arroz, Batata, Mandioca">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+ 
+            <div class="col-12">
+              <div style="text-align: center; margin-top: 15px;">
+              <button type="submit" class="btn btn-primary btn-calculate">
+                <i class="fas fa-calculator me-2"></i>Calcular Dieta
+              </button>
+            </div>
+          </div>
+          </div>
+        </form>
+
+        <div class="mt-5" id="resultado"></div>
+      </div>
+    </div>
+  </div>
+    <!-- Sessão Premium -->
+    <section id="premium-plans" class="container my-5">
+      <h2 class="text-center mb-4">Planos Premium</h2>
+      <p class="text-center mb-5">Desbloqueie todo o potencial da sua jornada Fitness com nossos Planos Exclusivos</p>
+      
+      <div class="row">
+        <!-- Plano Básico -->
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <div class="card-header bg-primary text-white text-center">
+              <h3 class="card-title mb-0">Básico</h3>
+            </div>
+            <div class="card-body d-flex flex-column">
+              <h4 class="card-title pricing-card-title text-center">R$ 15<small class="text-muted">/mês</small></h4>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li><i class="fas fa-check text-success me-2"></i>Receitas personalizadas ilimitadas</li>
+                <li><i class="fas fa-check text-success me-2"></i>Plano de treino básico</li>
+                <li><i class="fas fa-check text-success me-2"></i>Acompanhamento de progresso</li>
+                <li><i class="fas fa-check text-success me-2"></i>Suporte por email</li>
+                <li><i class="fas fa-check text-success me-2"></i>Lista de compras automática</li>
+              </ul>
+              <button class="btn btn-lg btn-block btn-primary subscribe-btn mt-auto" data-plan="basic">Assinar Agora</button>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Plano Avançado (Destaque) -->
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 border-primary border-2">
+            <div class="card-header bg-success text-white text-center">
+              <h3 class="card-title mb-0">Avançado</h3>
+              <span class="badge bg-light text-success mt-2">Mais Popular</span>
+            </div>
+            <div class="card-body d-flex flex-column">
+              <h4 class="card-title pricing-card-title text-center">R$ 25<small class="text-muted">/mês</small></h4>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li><i class="fas fa-check text-success me-2"></i>Todos os benefícios do Básico</li>
+                <li><i class="fas fa-check text-success me-2"></i>Plano de treino personalizado</li>
+                <li><i class="fas fa-check text-success me-2"></i>Acesso a nutricionistas 1x/mês</li>
+                <li><i class="fas fa-check text-success me-2"></i>Suporte prioritário</li>
+                <li><i class="fas fa-check text-success me-2"></i>Videoaulas exclusivas</li>
+              </ul>
+              <button class="btn btn-lg btn-block btn-success subscribe-btn mt-auto" data-plan="advanced">Assinar Agora</button>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Plano Família -->
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <div class="card-header bg-dark text-white text-center">
+              <h3 class="card-title mb-0">Família</h3>
+            </div>
+            <div class="card-body d-flex flex-column">
+              <h4 class="card-title pricing-card-title text-center">R$ 30<small class="text-muted">/mês</small></h4>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li><i class="fas fa-check text-success me-2"></i>Todos os benefícios do Avançado</li>
+                <li><i class="fas fa-check text-success me-2"></i>Até 5 perfis familiares</li>
+                <li><i class="fas fa-check text-success me-2"></i>Planos de refeições familiares</li>
+                <li><i class="fas fa-check text-success me-2"></i>Descontos em parceiros</li>
+                <li><i class="fas fa-check text-success me-2"></i>Relatórios de progresso familiar</li>
+              </ul>
+              <button class="btn btn-lg btn-block btn-dark subscribe-btn mt-auto" data-plan="family">Assinar Agora</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Modal para checkout -->
+    <div class="modal fade" id="checkoutModal" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Finalizar Assinatura</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-md-6">
+                <h5>Resumo do Plano</h5>
+                <div id="plan-summary" class="p-3 bg-light rounded"></div>
+              </div>
+              <div class="col-md-6">
+                <div id="payment-form" class="p-3 border rounded">
+                  <h5>Informações de Pagamento</h5>
+                  <div class="mb-3">
+                    <label for="numero-do-cartao" class="form-label">Número do Cartão</label>
+                    <input type="text" class="form-control" placeholder="1234 5678 9012 3456">
+                  </div>
+                  <div class="row">
+                    <div class="col-md-6 mb-3">
+                      <label for="validade" class="form-label">Validade</label>
+                      <input type="text" class="form-control" placeholder="MM/AA">
+                    </div>
+                    <div class="col-md-6 mb-3">
+                      <label for="cvv" class="form-label">CVV</label>
+                      <input type="text" class="form-control" placeholder="123">
+                    </div>
+                  </div>
+                  <div class="mb-3">
+                    <label for="nome-no-cartao" class="form-label">Nome no Cartão</label>
+                    <input type="text" class="form-control" placeholder="Nome como no cartão">
+                  </div>
+                  <button class="btn btn-success w-100">Pagar Agora</button>
+                </div>
+                <div id="payment-status" class="mt-3"></div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Rodapé motivacional -->
+    <footer class="motivational-footer py-3 mt-5">
+      <div class="container">
+        <div id="motivational-quote" class="motivational-quote">
+          "Sua saúde é um investimento, não uma despesa."
+          <span class="quote-author">- Autor Desconhecido</span>
+        </div>
+      </div>
+    </footer>
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/exercises.js"></script>
+  <script src="js/recipes.js"></script>
+  <script src="js/calculator.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
