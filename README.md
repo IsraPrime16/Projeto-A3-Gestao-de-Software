@@ -47,7 +47,7 @@ A plataforma foi pensada com uma arquitetura que permite sua evolução contínu
 
 * Sistema de chat com nutricionistas e profissionais de saúde, para orientação individualizada.
 
-## Estrutura do Projeto:
+## 🖥️ Estrutura do Projeto:
 
 ```plaintext
 Nutri-Fácil/
