@@ -51,7 +51,6 @@ A plataforma foi pensada com uma arquitetura que permite sua evolução contínu
 
 # Estrutura de Diretórios do Projeto Nutri-Fácil
 
-```plaintext
 Nutri-Fácil/
 │
 ├── Código-Principal/
@@ -68,41 +67,47 @@ Nutri-Fácil/
 │   └── Projeto_Nutri_Facil_A3 2.pptx
 │
 ├── Testes/
-│   ├── Gherkin/
-│   │   └── Gerkhin.funcionalidades
-│   │
-│   ├── Testes Dados de Entrada/
-│   │   ├── Teste-Dados-De-Entrada-Peso
-│   │   └── Teste-Dados-De-Entrada-Altura
-│   │
-│   ├── Testes Exercícios Personalizados/
-│   │   ├── Teste-Exercícios-Personalizados-Emagrecimento
-│   │   └── Teste-Exercícios-Personalizados-Hipertrofia
-│   │
-│   ├── Testes IMC/
-│   │   ├── Teste-IMC-Normal
-│   │   └── Teste-IMC-Obesidade
-│   │
-│   ├── Testes Receita com Restrições/
-│   │   ├── Teste-Receita-Com-Restrições-Lactose
-│   │   └── Teste-Receita-Com-Restrições-Vegetariana
-│   │
-│   ├── Testes TMB/
-│   │   ├── Teste-TMB-KO-Feminino
-│   │   ├── Teste-TMB-KO-Masculino
-│   │   ├── Teste-TMB-OK-Feminino
-│   │   └── Teste-TMB-OK-Masculino
-│   │
+│   ├── Funcionalidades/
+│   │   ├── Gherkin/
+│   │   │   └── Gerkhin.funcionalidades
+│   │   │
+│   │   ├── Dados de Entrada/
+│   │   │   ├── Teste-Dados-De-Entrada-Peso
+│   │   │   └── Teste-Dados-De-Entrada-Altura
+│   │   │
+│   │   ├── Exercícios Personalizados/
+│   │   │   ├── Teste-Exercícios-Personalizados-Emagrecimento
+│   │   │   └── Teste-Exercícios-Personalizados-Hipertrofia
+│   │   │
+│   │   ├── IMC/
+│   │   │   ├── Teste-IMC-Normal
+│   │   │   └── Teste-IMC-Obesidade
+│   │   │
+│   │   ├── Receita com Restrições/
+│   │   │   ├── Teste-Receita-Com-Restrições-Lactose
+│   │   │   └── Teste-Receita-Com-Restrições-Vegetariana
+│   │   │
+│   │   ├── TMB/
+│   │   │   ├── Teste-TMB-KO-Feminino
+│   │   │   ├── Teste-TMB-KO-Masculino
+│   │   │   ├── Teste-TMB-OK-Feminino
+│   │   │   └── Teste-TMB-OK-Masculino
+│   │   │
+│   │   └── (Outros arquivos de teste de funcionalidades)
+│
 │   ├── Bugs/
 │   │   └── Teste-Bugs
-│   │
-│   ├── Funcionalidades/
-│   │   └── (Arquivos de teste de funcionalidades)
-│   │
+│
 │   └── Usabilidades/
 │       ├── Conclusão-do-Moderador
 │       ├── Feedback-do-Cliente
 │       ├── Métricas-Satisfação
-│       └── (Outros arquivos de testes de usabilidade)
+│       └── Testes Usabilidade/
+│           ├── Teste-01-Usabilidade
+│           ├── Teste-02-Usabilidade
+│           ├── Teste-03-Usabilidade
+│           ├── Teste-04-Usabilidade
+│           └── Teste-05-Usabilidade
+
 
 
