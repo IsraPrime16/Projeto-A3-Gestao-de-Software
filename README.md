@@ -47,9 +47,8 @@ A plataforma foi pensada com uma arquitetura que permite sua evolução contínu
 
 * Sistema de chat com nutricionistas e profissionais de saúde, para orientação individualizada.
 
-# Estrutura do Projeto:
+## Estrutura do Projeto:
 
-# Estrutura de Diretórios do Projeto Nutri-Fácil
 ```plaintext
 Nutri-Fácil/
 │
@@ -99,15 +98,15 @@ Nutri-Fácil/
 │   │   └── Teste-Bugs
 │
 │   └── Usabilidades/
-│       ├── Conclusão-do-Moderador
-│       ├── Feedback-do-Cliente
-│       ├── Métricas-Satisfação
 │       └── Testes Usabilidade/
 │           ├── Teste-01-Usabilidade
 │           ├── Teste-02-Usabilidade
 │           ├── Teste-03-Usabilidade
 │           ├── Teste-04-Usabilidade
 │           └── Teste-05-Usabilidade
+│       ├── Conclusão-do-Moderador
+│       ├── Feedback-do-Cliente
+│       ├── Métricas-Satisfação
 
 
 
