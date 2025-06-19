@@ -50,7 +50,7 @@ A plataforma foi pensada com uma arquitetura que permite sua evolução contínu
 # Estrutura do Projeto:
 
 # Estrutura de Diretórios do Projeto Nutri-Fácil
-
+```plaintext
 Nutri-Fácil/
 │
 ├── Código-Principal/
