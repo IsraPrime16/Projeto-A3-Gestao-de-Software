@@ -53,6 +53,7 @@ A plataforma foi pensada com uma arquitetura que permite sua evolução contínu
 # Estrutura de Diretórios do Projeto Nutri-Fácil
 
 ```plaintext
+
 Nutri-Fácil/
 │
 ├── Código-Principal/
@@ -106,4 +107,4 @@ Nutri-Fácil/
 │       ├── Métricas-Satisfação
 │       └── (Outros arquivos de testes de usabilidade)
 
-```
+
