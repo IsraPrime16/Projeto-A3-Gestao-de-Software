@@ -1,4 +1,4 @@
-# 📊 Projeto A3: Nutri Fácil - Plataforma de Nutrição e Bem-Estar
+# 🍎 Projeto A3: Nutri Fácil - Plataforma de Nutrição e Bem-Estar
 
 ## 📑 Descrição do Projeto:
 
